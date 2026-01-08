@@ -2773,7 +2773,7 @@ section.parallax-section.hero-section .section-title h2 {
 /*------facts------------------------------------------------*/
 .inline-facts-wrap {
 	float:left;
-	width:25%;
+	width:33.33%;
 	position:relative;
 }
 .inline-facts .num {
