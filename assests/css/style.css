@@ -1520,7 +1520,7 @@ section.parallax-section.hero-section .section-title h2 {
 }
 .text-block {
 	text-align:left;
-	padding-right:80px;
+	padding-right:0px;
 }
 .text-block .btn  {
 	margin-top:30px;
@@ -4441,6 +4441,13 @@ section.parallax-section.hero-section .section-title h2 {
 /*}*/
 /*
 /*------responsive------------------------------------------------*/
+
+@media only screen and (min-width:1064px) {
+	.text-block .t-1{
+		display: none;
+	}
+	
+}
 @media only screen and (max-width: 1570px) {
 	.hero-social , .hero-dec_top , .hero-dec_bottom , .hero-dec_top_right , .hero-dec_bottom_right {
 		display:none;
@@ -4461,6 +4468,7 @@ section.parallax-section.hero-section .section-title h2 {
 		margin-left:0;
 		margin-top:40px;
 	}
+	
 }
 @media only screen and (max-width: 1064px) {
 	.nav-button-wrap {
@@ -4620,6 +4628,9 @@ section.parallax-section.hero-section .section-title h2 {
 	}
 	.text-block {
 		padding-right:0;
+	}
+	.text-block .t-2{
+		display: none;
 	}
 	.video_section-title h2 {
 		font-size:24px;
